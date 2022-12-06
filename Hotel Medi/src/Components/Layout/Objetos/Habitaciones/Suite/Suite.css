@@ -1,0 +1,56 @@
+.containthabit{
+  color: white;
+  display:block;
+  width: 100%;
+  margin: 0 0 0px 30px;
+}
+
+.containthabit h2{
+  text-align: center;
+}
+
+
+.infohabitacion{
+  display:flex;
+
+}
+
+
+.carei{
+  display:flex;
+  background: #67c528;
+  border-radius: 20px;
+  width: 300px;
+  margin: 20px 5px 5px 5px;
+  height: 200px;
+}
+
+.carei img{
+  width: 300px;
+  height: 200px;
+}
+
+.detallehabitacion{
+  display:block;
+  width: 50%;
+  margin: 20px 0 0 20px;
+}
+
+.pothosinfo{
+  display: inline-flex;
+
+}
+.care2{
+  display:flex;
+  background: #67c528;
+  border-radius: 20px;
+  width: 300px;
+  margin: 5px;
+  height: 210px;
+}
+
+.carei2 img{
+  width: 300px;
+  height: 200px;
+  margin-right: 30px;
+}

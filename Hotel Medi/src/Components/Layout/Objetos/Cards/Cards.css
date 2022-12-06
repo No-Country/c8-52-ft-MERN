@@ -1,0 +1,50 @@
+.containtcares{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background: #851973; */
+  margin-left: 20px;
+}
+
+.containtcares, Link{
+  margin-top: 10px;
+}
+
+.infocar{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card{
+  display:block;
+  background: #2c3a47;
+  border-radius: 15%;
+  width: 250px;
+  height: 250px;
+  /* width: 16vw;
+  height: 17vw; */
+  margin: 5px 40px 40px 40px;
+  /* margin: 40px; */
+  
+}
+
+.card img{
+  border-radius: 15% 15% 3% 3%;
+  height: 5px;
+  width: 250px;
+  height: 215px;
+  margin-bottom: 5px;
+  /* width: 16vw;
+  height: 15vw; */
+}
+
+.habicons{
+  display:inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px 0 5px 12px;
+  color: white;
+  padding: 10px;
+}

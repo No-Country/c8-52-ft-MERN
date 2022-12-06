@@ -1,0 +1,55 @@
+.contenedorobjetos{
+  display:flex;
+  margin: 15px 0 15px 20px;
+  
+}
+.containerformulario{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #2c3a47;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.sectform{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 5px 20px 5px;
+  color: white;
+}
+
+.nombrefecha{
+  color: white;
+  font-style: normal  ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 35px;
+  
+}
+
+.fecha{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  text-align: center;
+  color: gray;
+  font-size: 100%;
+  padding: 10px ;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 80%;
+}
+
+.fecha, send{
+  background: #091e31;
+  color: white;
+}

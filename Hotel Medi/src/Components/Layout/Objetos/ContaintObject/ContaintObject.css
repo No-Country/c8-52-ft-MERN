@@ -1,0 +1,11 @@
+.containtObjet{
+  display: flex;
+  justify-content: center; 
+  /* background-color: lightcoral; */
+  height:max-content;
+}
+
+.contienef{
+  width: 90vw;
+  height: 15vw;
+}
