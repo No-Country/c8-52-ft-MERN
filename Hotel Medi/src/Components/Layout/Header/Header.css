@@ -1,0 +1,34 @@
+
+.containerheader{
+  display:flex;
+  justify-content: center;
+}
+
+.headerlogo{
+  background-image: url("../../../assets/images/logofinal.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 80px;
+}
+
+
+.containlinks{
+  display: flex;
+  flex-flow: row wrap; 
+  flex-wrap: wrap;
+}
+
+.containlinks button{
+  background: #091e31;
+  color: white;
+  margin:  10px 60px 20px 0; 
+  font-size: 20px;
+  border-color: white;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.containlinks button:hover{
+  border-color: #d8ae5e;
+}

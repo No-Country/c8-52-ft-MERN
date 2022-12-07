@@ -10,6 +10,8 @@ import { GoLocation } from "react-icons/go";
 const Footer = () => {
   return (
     <div className="footera">
+        <h3 id='contactofooter'>Contacta con nosotros en:</h3>
+
       <div className='social'>
         <i className='redes'><AiFillFacebook /></i>
         <i className='redes'><AiFillTwitterCircle /></i>
@@ -21,13 +23,18 @@ const Footer = () => {
 
           
       <div className='datosfooter'>
-        <h3>Contacta con nosotros</h3>
-        <p><i className='habicons'><GoLocation /></i>  Paseo Di Trivi 2712, Malaga, España</p>
-        <p><i className='habicons'><AiOutlineMail /></i> Info@hotelmidife.com.co</p>
-        <p><i className='habicons'><AiFillPhone /></i> 02291 420358 ó 02291420293 </p>
+        <div className='containt-footer'>
+        <p><i className='habicons'><GoLocation /></i>  Paseo Di Trevi 2712, Málaga, España</p>
+        <p><i className='habicons'><AiOutlineMail /></i> Info@hotelmidife.com</p>
+        <p><i className='habicons'><AiFillPhone /></i> 02291 420358  o  02291420293 </p>
+        </div>
+
         
       </div>
-    
+      <i id='Copy'>
+      &copy; Diseñado por Diana Duarte Escobar y Realizado por Miguel Ángel Quintero.
+      </i>
+       
     </div>
   )
 }

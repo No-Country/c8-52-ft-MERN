@@ -1,0 +1,117 @@
+#zonapagos{
+  text-align: center;
+  color: white;
+}
+
+.cont-zona-pagos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.cont-zona-sub{
+  width: 30%;
+  padding: 20px;
+  margin: 40px;
+  /* background: #2c3a47; */
+  border-radius: 20px;
+  /* border: solid black; */
+  text-align: center;
+}
+
+.cont-zona-sub2{
+  width: 30%;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.cont-zona-sub3{
+  display: block;
+  text-align: left;
+  background: #2c3a47;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.cont-zona-sub4{
+  display:inline-flex;
+}
+
+.spanepagos{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.input-pagos{
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.input-pagos2{
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px
+}
+.input-pagos3{
+  width: 90px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px
+}
+
+.input-pagos4{
+  width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  margin: 10px;
+  background: #2c3a47;
+  color: white;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.input-pagos5{
+  width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 20px;
+  background: #2c3a47;
+  color: white;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.texto-pagos{
+  display:inline-flex;
+  color: white;
+  
+}
+
+
+#zona-pagos-img{
+  width: 50px;
+  height: 20px;
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+
+.spanepagos{
+  width: 80%;
+}
+
+#pagos-img{
+  width: 60%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 20px;
+}

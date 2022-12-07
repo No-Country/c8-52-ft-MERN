@@ -22,3 +22,24 @@
   width: 100%;
   margin: 0 0 0px 30px;
 }
+
+#contactofooter{
+  text-align: center;
+  color: white;
+}
+.containt-footer{
+  /* background-color: aqua; */
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#Copy{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: white;
+  /* text-align: center; */
+}
