@@ -1,0 +1,26 @@
+#titulo-creacion-exitosa{
+  text-align: center;
+  color: white;
+}
+
+.cont-creacion-exitosa{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont-creacion-dimension{
+  width: 30%;
+  padding: 60px;
+  margin: 40px;
+  background: #2c3a47;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#logoexitoso{
+  width: 100px;
+  height: 100px;
+}

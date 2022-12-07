@@ -1,9 +1,9 @@
-#zonapagos{
+#zonaPagosStandard{
   text-align: center;
   color: white;
 }
 
-.cont-zona-pagos{
+.cont-zona-PagosStandard{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,7 +15,9 @@
   width: 30%;
   padding: 20px;
   margin: 40px;
+  /* background: #2c3a47; */
   border-radius: 20px;
+  /* border: solid black; */
   text-align: center;
 }
 
@@ -40,32 +42,32 @@
   display:inline-flex;
 }
 
-.spanepagos{
+.spanePagosStandard{
   margin-top: 20px;
   margin-left: 10px;
 }
 
-.input-pagos{
+.input-PagosStandard{
   width: 60%;
   padding: 10px;
   border-radius: 20px;
   margin: 10px;
 }
 
-.input-pagos2{
+.input-PagosStandard2{
   width: 120px;
   padding: 10px;
   border-radius: 20px;
   margin: 10px
 }
-.input-pagos3{
+.input-PagosStandard3{
   width: 90px;
   padding: 10px;
   border-radius: 20px;
   margin: 10px
 }
 
-.input-pagos4{
+.input-PagosStandard4{
   width: 70%;
   padding: 10px;
   border-radius: 20px;
@@ -77,7 +79,7 @@
   font-size: 20px;
 }
 
-.input-pagos5{
+.input-PagosStandard5{
   width: 70%;
   padding: 10px;
   border-radius: 20px;
@@ -89,25 +91,25 @@
   font-size: 20px;
 }
 
-.texto-pagos{
+.texto-PagosStandard{
   display:inline-flex;
   color: white;
   
 }
 
 
-#zona-pagos-img{
+#zona-PagosStandard-img{
   width: 50px;
   height: 20px;
   margin: 0 0 0 5px;
   padding: 0;
 }
 
-.spanepagos{
+.spanePagosStandard{
   width: 80%;
 }
 
-#pagos-img{
+#PagosStandard-img{
   width: 60%;
   height: 100px;
   margin-top: 10px;

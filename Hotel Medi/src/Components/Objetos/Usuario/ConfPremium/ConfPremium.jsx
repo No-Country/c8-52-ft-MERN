@@ -1,18 +1,18 @@
 import React from 'react'
-import habitacion3_1 from "../../../../assets/images/habitacion3_1.jpg"
-import habitacion2_1 from "../../../../assets/images/habitacion2_1.jpg"
-import habitacion4 from "../../../../assets/images/habitacion4.jpg"
-import "./ConfiStandard.css"
+// import habitacion3_1 from "../../../../assets/images/habitacion3_1.jpg"
+// import habitacion2_1 from "../../../../assets/images/habitacion2_1.jpg"
+// import habitacion4 from "../../../../assets/images/habitacion4.jpg"
+import "./ConfPremium.css"
 import { Link } from 'react-router-dom'
 
-const ConfiStandard = () => {
+const ConfPremium = () => {
   return (
     <div>
       <h2 className='centrar'>CONFIRMACIÓN DE RESERVA</h2>
     <div className='containtarifas'>
       
       <div className='temporada'>
-        <h3 className='centrar' id='colore'>¡¡Excelente Elección!! Habitación Standard</h3>
+        <h3 className='centrar' id='colore'>¡¡Excelente Elección!! Habitación Premium</h3>
         <p> Gracias por preferir al <strong> Hotel Midife</strong>, la reserva se encuentra en proceso de confirmación,
         por favor verificar que los datos de la habitación sean los que has seleccionado. Seguidamente oprimir en realizar pago.
         </p>
@@ -73,11 +73,11 @@ const ConfiStandard = () => {
       <p>Reserva Hasta el <strong> 19/12/2022</strong></p><br />
       <p>Adultos: 2</p>
       <p>Mascotas: Perro</p><br />
-      <p>Precio: $ 242.000 ARS </p>
+      <p>Precio: $ 280.500 ARS </p>
 
 
       </span>
-      <Link to="/loginIciarSeccion/standard">
+      <Link to="/loginIciarSeccion/premium">
       <button className='btnconf' >CONFIRMAR</button>
       </Link>
     </div>
@@ -86,4 +86,4 @@ const ConfiStandard = () => {
   )
 }
 
-export default ConfiStandard;
+export default ConfPremium;

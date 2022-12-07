@@ -50,7 +50,9 @@ const Pagos = () => {
           </div>
           </div>      
         </div>
+        <Link to="/HotelMifife/TuReserva_esTodo_unExito">
         <input className='input-pagos5' type="submit" value="CONFIRMAR PAGO" />
+        </Link>
         </div>
       </div>
     </div>

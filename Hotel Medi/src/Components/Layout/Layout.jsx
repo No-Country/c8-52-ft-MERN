@@ -17,6 +17,17 @@ import MiCuenta from '../Objetos/Usuario/MiCuenta/MiCuenta';
 import Conreserva from '../Objetos/Usuario/Conreserva/Conreserva';
 import CuentCreaExistosamente from '../Objetos/Login/CuentCreaExistosamente/CuentCreaExistosamente';
 import Pagos from '../Objetos/Pagos/Pagos';
+import ReservaExitosa from '../Objetos/Usuario/ReservaExitosa/ReservaExitosa';
+import ConfPremium from '../Objetos/Usuario/ConfPremium/ConfPremium';
+import ConfiSuite from '../Objetos/Usuario/ConfiSuite/ConfiSuite';
+import PagosPremium from '../Objetos/Pagos/PagosPremium/PagosPremium';
+import PagosStandard from '../Objetos/Pagos/PagosStandard/PagosStandard';
+import ExitoPremium from '../Objetos/Login/ExitoPremium/ExitoPremium';
+import CrearCuentaPremium from '../Objetos/Login/CrearCuentaPremium/CrearCuentaPremium';
+import CrearCuentaStandard from '../Objetos/Login/CrearCuentaStandard/CrearCuentaStandard';
+import IniciarSeccionStandard from '../Objetos/Login/IniciarSeccionStandard/IniciarSeccionStandard';
+import ExitoStandard from '../Objetos/Login/ExitoStandar/ExitoStandard';
+import IniciarSeccionPremium from '../Objetos/Login/IniciarSeccionPremium/IniciarSeccionPremium';
 
 const Layout = () => {
   return (
@@ -36,15 +47,28 @@ const Layout = () => {
           <Route path="/informacion/Habitacion/Premium" element={<Premiun />} />
           <Route path="/informacion/Habitacion/Suite" element={<Suite />} />
           <Route path="/tarifas" element={<Tarifas />} />
-          <Route path="/confirmacionDeReservaHabitacionStandar" element={<ConfiStandard /
+          <Route path="/confirmacionDeReservaHabitacionStandard" element={<ConfiStandard /
+          >} />
+          <Route path="/confirmacionDeReservaHabitacionPremium" element={<ConfPremium /
+          >} />
+          <Route path="/confirmacionDeReservaHabitacionSuite" element={<ConfiSuite /
           >} />
           <Route path="/misReservas" element={<ReservasUsuario />} />
           <Route path="/misReservas/Miguel-Quintero" element={<Conreserva />} />
           
           <Route path="/loginIciarSeccion" element={<IniciarSeccion />} />
+          <Route path="/loginIciarSeccion/standard" element={<IniciarSeccionStandard />} />
+          <Route path="/loginIciarSeccion/premium" element={<IniciarSeccionPremium />} />
           <Route path="/crearCuenta" element={<CrearCuenta />} />
+          <Route path="/crearCuenta/Premium" element={<CrearCuentaPremium />} />
+          <Route path="/crearCuenta/Standard" element={<CrearCuentaStandard />} />
           <Route path="/HootelMifife/CuentCreaExistosamente" element={<CuentCreaExistosamente />} />
+          <Route path="/HootelMifife/CuentCreaExistosamente/ExitoPremium" element={<ExitoPremium />} />
+          <Route path="/HootelMifife/CuentCreaExistosamente/ExitoStandard" element={<ExitoStandard />} />
           <Route path="/HotelMifife/zona/pagos" element={<Pagos />} />
+          <Route path="/HotelMifife/zona/pagos/Premium" element={<PagosPremium />} />
+          <Route path="/HotelMifife/zona/pagos/Standard" element={<PagosStandard />} />
+          <Route path="/HotelMifife/TuReserva_esTodo_unExito" element={<ReservaExitosa />} />
           <Route path="/hotelMidife/MiCuenta/Miguel-Quintero" element={<MiCuenta />} />
           </Routes>
         </div>

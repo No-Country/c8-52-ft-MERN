@@ -25,7 +25,7 @@ const Tarifas = () => {
       <p>Domingos a Jueves 21.900</p>
       <p>Viernes y Sábado 24.500</p>
       </span>
-      <Link  to="/confirmacionDeReservaHabitacionStandar">
+      <Link  to="/confirmacionDeReservaHabitacionStandard">
       <button className='btnconf' >RESERVAR</button>
       </Link>
     </div>
@@ -36,7 +36,7 @@ const Tarifas = () => {
       <p>Domingos a Jueves 25.400</p>
       <p>Viernes y Sábado 28.500</p>
       </span>
-      <Link  to="/confirmacionDeReservaHabitacionStandar">
+      <Link  to="/confirmacionDeReservaHabitacionPremium">
       <button className='btnconf' >RESERVAR</button>
       </Link>
     </div>
@@ -47,7 +47,7 @@ const Tarifas = () => {
       <p>Domingos a Jueves 34.000</p>
       <p>Viernes y Sábado 37.000</p>
       </span>
-      <Link  to="/confirmacionDeReservaHabitacionStandar">
+      <Link  to="/confirmacionDeReservaHabitacionSuite">
       <button className='btnconf' >RESERVAR</button>
       </Link>
     </div>
